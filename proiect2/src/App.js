@@ -1,20 +1,15 @@
 import './App.css';
 import React from 'react'
 
-class App extends ReadableByteStreamController.Component{
-  constructor(){
-    super();
-    this.state = {}
-  }
+class App extends React.Component{
+
   render(){
     return(
       <div>
-        11curs 5
+       <h1>test</h1>
       </div>
     )
   }
-    
-  
 }
 
 export default App;
